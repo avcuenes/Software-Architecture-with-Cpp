@@ -33,6 +33,21 @@ our need for managing a session, as it'd be done in a stateful service
 The simplest architectural style in which you can develop your application is a
 monolithic one. This is why many projects are started using this style.
 
+## Understanding services and microservices
+
+A common idea is to split your solution into multiple services that communicate with each other.
+You can then split the development between different teams , each taking care of a separate service.
+Service-oriented architecture means that the business functions are modularized and presented ad separate services for the consumer applications to use. 
+
+
+
+
+
+
+
+
+
 
 ## References
 1.<https://www.baeldung.com/cs/stateful-stateless-system>
+2.<https://medium.com/software-architecture-foundations/robot-operating-system-2-ros-2-architecture-731ef1867776>
